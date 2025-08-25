@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "author": {
+      "name": "Robert Hammond",
+      "avatarUrl": "/assets/img2.jpg"
+    },
+    "post": {
+      "text": "My wife prepared a surprise trip for me. I'm so thankful and I love her very much. Here are some of the best shots from our trip to Sri Lanka. 🇱🇰",
+      "images": [
+        "/assets/pic1.jpg",
+        "/assets/pic2.jpg"
+      ],
+      "likes": 230,
+      "comments": 6,
+      "shares": 2
+    },
+    "timestamp": "2025-08-15T01:08:00Z"
+  },
+  {
+    "id": 2,
+    "author": {
+      "name": "Amelie Shiba",
+      "avatarUrl": "/assets/img4.jpg"
+    },
+    "post": {
+      "text": "I'm selling these clothes. Anyone interested? Or shall we do a swap evening at mine? 🙋‍♀️",
+      "images": [
+        "/assets/clothes1.jpg",
+        "/assets/clothes4.jpg",
+        "/assets/clothes3.jpg",
+        "/assets/clothes2.jpg",
+        "/assets/clothes5.jpg"
+      ],
+      "likes": 88,
+      "comments": 12,
+      "shares": 1
+    },
+    "timestamp": "2025-08-14T10:40:00Z"
+  },
+  {
+    "id": 3,
+    "author": {
+      "name": "Mahmoud Elsebaey",
+      "avatarUrl": "/assets/img3.jpg"
+    },
+    "post": {
+      "text": "What a wonderful day with my family at the zoo.",
+      "images": [
+        "/assets/zoo1.jpg",
+        "/assets/zoo2.jpg",
+        "/assets/zoo3.jpg"
+      ],
+      "likes": 234,
+      "comments": 31,
+      "shares": 4
+    },
+    "timestamp": "2025-08-23T18:30:00Z"
+  },
+  {
+    "id": 4,
+    "author": {
+      "name": "Sally Hammond",
+      "avatarUrl": "/assets/img5.jpg"
+    },
+    "post": {
+      "text": "What a wonderful day on The Natural Places",
+      "images": [
+        "/assets/pic1.jpg",
+        "/assets/pic2.jpg"
+      ],
+      "likes": 230,
+      "comments": 6,
+      "shares": 2
+    },
+    "timestamp": "2025-08-19T06:10:00Z"
+  }, {
+    "id": 5,
+    "author": {
+      "name": "Dyaiz Moro 52",
+      "avatarUrl": "/assets/img6.jpg"
+    },
+    "post": {
+      "text": "What a wonderful day with my family at the zoo.",
+      "images": [],
+      "likes": 230,
+      "comments": 6,
+      "shares": 2
+    },
+    "timestamp": "2025-08-23T15:34:00Z"
+  } 
+]

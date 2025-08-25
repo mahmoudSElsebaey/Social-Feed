@@ -4,8 +4,8 @@ A responsive social-media feed built with **Next.js** and **React**, replicating
 
 ---
 
-## 🚀 Demo
-> _Optional: add your Vercel link here_
+<!-- ## 🚀 Demo
+> _Optional: add your Vercel link here_ -->
 
 ---
 
@@ -54,70 +54,6 @@ public/
   assets/                    // Local placeholders if needed
 ```
 
----
-
-## 🔌 Mock API (required by task)
-The task requests simulating API fetching using **API Routes**. This project exposes:
-
-- **GET** `/Data/posts` → returns an array of posts after a small delay.
-
-Example (excerpt):
-```ts
-// pages/Data/posts.ts
-import type { NextApiRequest, NextApiResponse } from 'next';
-
-const posts = [
-  {
-    id: 1,
-    author: {
-      name: 'Robert Hammond',
-      avatarUrl: 'https://i.pravatar.cc/150?u=roberthammond',
-    },
-    post: {
-      text: 'My wife prepared a surprise trip for me... 🇱🇰',
-      images: ['/images/sri-lanka-1.jpg', '/images/sri-lanka-2.jpg'],
-      likes: 230,
-      comments: 6,
-      shares: 2,
-    },
-    timestamp: '2025-08-15T01:08:00Z',
-  },
-];
-
-export default function handler(_req: NextApiRequest, res: NextApiResponse) {
-  setTimeout(() => res.status(200).json(posts), 1000); // simulate network delay
-}
-```
-
-Consume it from the client (simplified):
-```tsx
-useEffect(() => {
-  const load = async () => {
-    const res = await fetch('/api/posts');
-    const data = await res.json();
-    setPosts(data);
-  };
-  load();
-}, []);
-```
-
----
-
-## ⚙️ Configuration
-If you load remote avatars (e.g., from `i.pravatar.cc`), add this to `next.config.js`:
-```js
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  images: {
-    remotePatterns: [
-      { protocol: 'https', hostname: 'i.pravatar.cc' },
-    ],
-  },
-};
-module.exports = nextConfig;
-```
-
----
 
 ## 🛠️ Getting Started
 ### Prerequisites
@@ -126,7 +62,7 @@ module.exports = nextConfig;
 ### Install & Run
 ```bash
 # 1) Clone
-git clone https://github.com/<your-username>/social-feed.git
+git clone https://github.com/mahmoudSElsebaey/Social-Feed.git
 cd social-feed
 
 # 2) Install deps
@@ -141,7 +77,7 @@ npm run dev
 ```bash
 npm run build   # production build
 npm run start   # run production build
-npm run lint    # lint code
+
 ```
 
 ---
@@ -180,6 +116,6 @@ npm run lint    # lint code
 ## 👤 Author
 **Mahmoud Elsebaey**
 
-- GitHub: _add link_
-- LinkedIn: _add link_
+- GitHub: [_add link_](https://github.com/mahmoudSElsebaey)
+- LinkedIn:[ _add link_](https://www.linkedin.com/in/mahmoud-elsebaey-888797223/)
 

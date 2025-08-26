@@ -1,12 +1,11 @@
 import Image from "next/image";
 import { BsEmojiSmile } from "react-icons/bs";
 import { CiLocationOn } from "react-icons/ci";
-import { IoIosLink } from "react-icons/io";
-import { MdOutlinePhotoSizeSelectActual } from "react-icons/md";
+import { MdOutlineAttachment, MdOutlinePhotoSizeSelectActual } from "react-icons/md";
 
 const icons: { icon: React.ReactNode }[] = [
   { icon: <MdOutlinePhotoSizeSelectActual /> },
-  { icon: <IoIosLink /> },
+  { icon: <MdOutlineAttachment  /> },
   { icon: <CiLocationOn /> },
   { icon: <BsEmojiSmile /> },
 ];

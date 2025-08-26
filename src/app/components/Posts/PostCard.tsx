@@ -98,8 +98,8 @@ const PostCard = () => {
                 {item.post.likes}
               </p>
             </div>
-            <div className="flex gap-2 sm:gap-3">
-              <div className="flex items-center gap-1 sm:gap-2 text-gray-500 cursor-pointer">
+            <div className="flex gap-2 sm:gap-5">
+              <div className="flex items-center gap-1 sm:gap-1 text-gray-500 cursor-pointer">
                 <IoChatbubbleEllipsesOutline size={18} />
                 <p>Comment</p>
                 <p className="bg-gray-200/70 px-2 rounded-full text-[10px] sm:text-xs">

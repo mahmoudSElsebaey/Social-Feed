@@ -116,6 +116,6 @@ npm run start   # run production build
 ## 👤 Author
 **Mahmoud Elsebaey**
 
-- GitHub: [_add link_](https://github.com/mahmoudSElsebaey)
-- LinkedIn:[ _add link_](https://www.linkedin.com/in/mahmoud-elsebaey-888797223/)
+- GitHub: [_link_](https://github.com/mahmoudSElsebaey)
+- LinkedIn:[ _link_](https://www.linkedin.com/in/mahmoud-elsebaey-888797223/)
 

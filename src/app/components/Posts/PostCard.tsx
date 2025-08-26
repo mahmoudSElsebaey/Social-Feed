@@ -36,7 +36,7 @@ const PostCard = () => {
         //__________________________________ Post Card __________________________________
         <div
           key={item.id}
-          className="bg-white rounded-lg shadow-md p-3 sm:p-4 mb-3 w-full  mx-auto"
+          className="bg-white rounded-lg shadow-md p-3 sm:p-4 mb-3 w-full mx-auto"
         >
           {/*_________________ Post header _________________*/}
           <div className="flex justify-between items-start">
